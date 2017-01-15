@@ -221,6 +221,8 @@
         __weak typeof(self) weakSelf = self;
         _selectBlock(weakSelf,indexPath.row);
     }
+    
+    [self close];
 
 }
 
